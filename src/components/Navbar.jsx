@@ -30,7 +30,7 @@ export default function Navbar() {
           </a>
         </li>
       </ol>
-      <button className="flex items-center gap-2 text-[#FAFAFF] text-sm bg-[#050505] px-6 py-1 rounded-full border-double border-8 border-white">
+      <button className="flex items-center gap-2 text-[#FAFAFF] text-sm bg-[#050505] px-6 py-1 rounded-full double-border">
         CONTACT ME <img src="./src/assets/arrow.png" />
       </button>
     </nav>

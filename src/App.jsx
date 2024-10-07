@@ -2,6 +2,9 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Marquee from "./components/Marquee";
+import RecentWork from "./components/RecentWork";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +17,10 @@ function App() {
       </div>
       <About />
       <Marquee />
+      <RecentWork />
+      <Marquee />
+      <Experience />
+      <Contact />
 
       <Navbar />
     </>
