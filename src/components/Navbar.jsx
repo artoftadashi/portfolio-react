@@ -1,11 +1,13 @@
-export default function Navbar() {
+// remember to add function to change the style of the link clicked
+
+export default function Navbar({ isSelected }) {
   let linkStyle =
     "text-[#FAFAFF] text-sm px-6 py-2 rounded-full hover:bg-[#1E1E1E] duration-300 ";
   return (
-    <nav className="flex gap-1 fixed bottom-0 right-[25vw] mb-8">
+    <nav className="flex gap-2 fixed bottom-0 right-[25vw] mb-8">
       <ol className="flex items-center bg-[#050505] px-4 py-4 rounded-full">
         <li>
-          <a href="" className={linkStyle}>
+          <a href="" className={linkStyle + "bg-[#1E1E1E]"}>
             HOME
           </a>
         </li>

@@ -30,6 +30,32 @@ export default function Contact() {
           <img src="./src/assets/copy.png" className="w-12" />
         </button>
       </h3>
+      <div className="w-full border-b border-[#909098] mt-12"></div>
+      <div className="w-full flex items-center justify-between mt-20">
+        <ul className="flex items-center gap-5">
+          <li>
+            <a href="#">
+              <img src="./src/assets/github.png" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./src/assets/linkedin.png" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./src/assets/mail.png" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./src/assets/instagram.png" />
+            </a>
+          </li>
+        </ul>
+        <p className="text-[#fafaff] font-innerTight">© SAMUEL OLANREWAJU</p>
+      </div>
     </section>
   );
 }
