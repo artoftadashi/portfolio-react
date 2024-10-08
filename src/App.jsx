@@ -1,3 +1,4 @@
+import { useState } from "react";
 import About from "./components/About";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -7,6 +8,11 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 
 function App() {
+  const [selectedLink, setSelectedLink] = useState("home");
+  function handleSelect(link) {
+    setSelectedLink(link);
+  }
+
   return (
     <>
       <Header />
@@ -22,7 +28,7 @@ function App() {
       <Experience />
       <Contact />
 
-      <Navbar />
+      <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
     </>
   );
 }

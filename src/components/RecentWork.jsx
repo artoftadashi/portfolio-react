@@ -6,7 +6,7 @@ export default function RecentWork() {
       <h1 className="text-[10rem] text-[#fafaff] font-bold uppercase  text-center font-[Thunder] leading-[10rem]">
         Recent work
       </h1>
-      <div className="flex flex-wrap justify-between mt-32 ">
+      <div className="flex flex-wrap justify-center gap-16 mt-32 ">
         <RecentWorksCard
           image="./src/assets/simonSays.png"
           isLarge={true}
