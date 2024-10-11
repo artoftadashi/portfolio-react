@@ -11,11 +11,13 @@ export default function Navbar({ selectedLink, onSelect }) {
           title="home"
           onSelect={() => onSelect("home")}
           isSelected={selectedLink === "home"}
+          link="/home"
         />
         <NavbarLink
           title="about"
           onSelect={() => onSelect("about")}
           isSelected={selectedLink === "about"}
+          link="/about"
         />
         <NavbarLink
           title="work"
@@ -31,6 +33,7 @@ export default function Navbar({ selectedLink, onSelect }) {
           title="my art"
           onSelect={() => onSelect("my art")}
           isSelected={selectedLink === "my art"}
+          link="/art"
         />
       </ol>
       <button className="flex items-center gap-2 text-[#FAFAFF] text-sm bg-[#050505] px-6 py-1 rounded-full double-border">
