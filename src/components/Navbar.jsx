@@ -5,7 +5,7 @@ import NavbarLink from "./NavbarLink";
 
 export default function Navbar({ selectedLink, onSelect }) {
   return (
-    <nav className="flex gap-2 fixed bottom-0 right-[25vw] mb-8">
+    <nav className="flex gap-2 fixed bottom-0 right-[50%] translate-x-[50%] mb-8">
       <ol className="flex items-center bg-[#050505] px-4 py-4 rounded-full">
         <NavbarLink
           title="home"

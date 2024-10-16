@@ -1,3 +1,4 @@
+import ArtBody from "../components/artComponents/ArtBody";
 import Navbar from "../components/Navbar";
 import { useState } from "react";
 
@@ -8,7 +9,7 @@ export default function Art() {
   }
   return (
     <>
-      <h3>Art</h3>
+      <ArtBody />
       <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
     </>
   );
