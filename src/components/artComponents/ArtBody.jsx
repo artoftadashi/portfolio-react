@@ -17,11 +17,11 @@ export default function ArtBody() {
             />
           </div>
           {/* text and buttons */}
-          <div className="flex items-center absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] w-[60vw] ">
-            <h1 className="uppercase text-[8rem] font-[Thunder] leading-[7rem] text-white tracking-wide ">
+          <div className="flex items-center justify-evenly m-auto w-full h-full ">
+            <h1 className="uppercase text-[8rem] font-[Thunder] leading-[7rem] text-white tracking-wide w-[40%] ">
               girl with the fire
             </h1>
-            <div className="inline-flex gap-6 ml-60 w-[30%]">
+            <div className="inline-flex gap-6">
               <button className="border-2 rounded-full p-6 !h-fit !w-fit">
                 <img src="../src/assets/arrow-left.png" className="!w-full" />
               </button>
