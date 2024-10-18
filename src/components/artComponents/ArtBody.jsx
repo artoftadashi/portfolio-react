@@ -1,9 +1,13 @@
 export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
-  let containerClass = ` w-full h-[100vh] bg-[url('${content.image}')] bg-no-repeat overflow-hidden bg-cover bg-center `;
-  let centerImageClass = `w-[26rem] h-[32rem] rounded-3xl absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rotate-[5deg] -z-[2] bg-[url('${content.image}')] bg-no-repeat overflow-hidden bg-cover bg-center  `;
+  let containerClass = ` w-full h-[100vh] bg-no-repeat overflow-hidden bg-cover bg-center `;
+  let centerImageClass = `w-[26rem] h-[32rem] rounded-3xl absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rotate-[5deg] -z-[2] bg-no-repeat overflow-hidden bg-cover bg-center animate-fade animate-delay-[.3s]  `;
   return (
     <>
-      <div className={containerClass} key={content.index}>
+      <div
+        className={containerClass}
+        style={{ backgroundImage: `url(${content.image})` }}
+        key={content.index}
+      >
         <div className="py-8 px-16 h-[100vh] w-[100vw] backdrop-blur-md bg-[#020202]/40 relative">
           {/* my logo */}
           <div className="flex items-center py-1 px-4 bg-white rounded-3xl w-fit">
@@ -12,7 +16,10 @@ export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
             </p>
           </div>
           {/* center image */}
-          <div className={centerImageClass}></div>
+          <div
+            className={centerImageClass}
+            style={{ backgroundImage: `url(${content.image})` }}
+          ></div>
           {/* text and buttons */}
           <div className="flex items-center justify-evenly m-auto w-full h-full ">
             <h1 className="uppercase text-[8rem] font-[Thunder] leading-[7rem] text-white tracking-wide w-[40%] drop-shadow-xl animate-fade-right ">
