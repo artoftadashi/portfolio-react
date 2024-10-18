@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Header />
       <div className="w-[70vw] flex items-center mb-16 mx-auto">
-        <h1 className="text-[10rem] font-bold uppercase  text-center font-[Thunder] leading-[10rem]">
+        <h1 className="text-[10rem] font-bold uppercase  text-center font-[Thunder] leading-[10rem] animate-fade-right">
           Hi, i'm samuel. Creative Software Developer
         </h1>
       </div>
