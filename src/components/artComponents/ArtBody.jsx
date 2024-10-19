@@ -1,6 +1,6 @@
 export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
   let containerClass = ` w-full h-[100vh] bg-no-repeat overflow-hidden bg-cover bg-center `;
-  let centerImageClass = `w-[26rem] h-[32rem] rounded-3xl absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rotate-[5deg] -z-[2] bg-no-repeat overflow-hidden bg-cover bg-center animate-fade animate-delay-[.2s]  `;
+  let centerImageClass = `w-[26rem] h-[32rem] rounded-3xl absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rotate-[5deg] -z-[2] bg-no-repeat overflow-hidden bg-cover bg-center animate-fade animate-delay-[.15s]  `;
   return (
     <>
       <div
@@ -22,7 +22,7 @@ export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
           ></div>
           {/* text and buttons */}
           <div className="flex items-center justify-evenly m-auto w-full h-full ">
-            <h1 className="uppercase text-[8rem] font-[Thunder] leading-[7rem] text-white tracking-wide w-[40%] drop-shadow-xl animate-fade-right ">
+            <h1 className="uppercase text-[8rem] font-[Thunder] leading-[7rem] text-white tracking-wide w-[30%] drop-shadow-xl animate-fade-right ">
               {content.caption}
             </h1>
             <div className="inline-flex gap-6">

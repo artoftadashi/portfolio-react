@@ -15,11 +15,14 @@ export default function Home() {
 
   return (
     <>
-      <Header />
-      <div className="w-[70vw] flex items-center mb-16 mx-auto">
-        <h1 className="text-[10rem] font-bold uppercase  text-center font-[Thunder] leading-[10rem] animate-fade-right">
-          Hi, i'm samuel. Creative Software Developer
-        </h1>
+      <div className="bg-[url('Patterns.svg')]">
+        <Header />
+        <div className="w-[70vw] flex items-center mb-16 mx-auto ">
+          <h1 className="text-[10rem] font-bold uppercase  text-center font-[Thunder] leading-[10rem] animate-fade-right">
+            Hi, i'm <span className="text-[#66ed41]">samuel.</span> Creative
+            Software Developer
+          </h1>
+        </div>
       </div>
       <About />
       <Marquee />
