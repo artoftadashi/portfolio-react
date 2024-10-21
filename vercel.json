@@ -1,0 +1,7 @@
+{
+  "redirects": [
+    { "source": "/about", "destination": "/about" },
+    { "source": "/home", "destination": "/home" },
+    { "source": "/art", "destination": "/art" }
+  ]
+}

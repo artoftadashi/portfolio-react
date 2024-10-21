@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <main onMouseMove={(ev) => handleMouseMove(ev)} className="relative">
         <span
-          className="absolute border-[#87FF65] border-2 w-[100px] h-[100px] rounded-full z-[1] hidden xl:block bg-[#1e1e1e]/10 backdrop-hue-rotate-90 "
+          className="absolute border-[#87FF65] border-2 w-[100px] h-[100px] rounded-full hidden xl:block bg-[#1e1e1e]/10 backdrop-hue-rotate-90 "
           style={{ left: mousePosition.left, top: mousePosition.top }}
         ></span>
         <Header />
@@ -47,8 +47,8 @@ export default function Home() {
         <Marquee />
         <Experience />
         <Contact />
+        <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
       </main>
-      <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
     </>
   );
 }
