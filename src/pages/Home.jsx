@@ -21,15 +21,19 @@ export default function Home() {
   function handleMouseMove(ev) {
     setTimeout(() => {
       setMousePositon({
-        left: (ev.pageX -= 30),
-        top: (ev.pageY -= 60),
+        left: (ev.pageX -= 45),
+        top: (ev.pageY -= 75),
       });
-    }, 100);
+    }, 150);
   }
 
   return (
     <>
       <main onMouseMove={(ev) => handleMouseMove(ev)} className="relative">
+        <span
+          className="absolute border-[#87FF65] border-2 w-[100px] h-[100px] rounded-full z-[1] hidden xl:block bg-[#1e1e1e]/10 backdrop-hue-rotate-90 "
+          style={{ left: mousePosition.left, top: mousePosition.top }}
+        ></span>
         <Header />
         <div className="xl:w-[70vw] md:w-[85vw] w-[90vw] h-[40vh] md:h-[50vh] lg:h-[70vh] flex items-center mb-16 mx-auto ">
           <h1 className="text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem] font-bold uppercase  text-center font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none animate-fade-right">
@@ -43,11 +47,6 @@ export default function Home() {
         <Marquee />
         <Experience />
         <Contact />
-
-        <span
-          className="absolute border-[#87FF65] border-2 w-[60px] h-[60px] rounded-full -z-10 hidden xl:block"
-          style={{ left: mousePosition.left, top: mousePosition.top }}
-        ></span>
       </main>
       <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
     </>
