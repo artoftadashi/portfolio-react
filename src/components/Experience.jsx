@@ -30,7 +30,7 @@ export default function Experience() {
           Learn more
         </p>
         <img
-          src="./src/assets/arrow3.png"
+          src="./arrow3.png"
           className="lg:w-12 w-8 group-hover:animate-bounce"
         />
       </a>

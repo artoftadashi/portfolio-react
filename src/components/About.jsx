@@ -22,7 +22,7 @@ export default function About() {
           Learn more
         </p>
         <img
-          src="./src/assets/arrow2.png"
+          src="./arrow2.png"
           className="w-8 lg:w-12 group-hover:animate-bounce"
         />
       </a>

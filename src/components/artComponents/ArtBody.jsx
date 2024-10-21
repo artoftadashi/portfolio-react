@@ -30,13 +30,13 @@ export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
                 className="border-2 rounded-full p-6 !h-fit !w-fit"
                 onClick={onSelectPrev}
               >
-                <img src="../src/assets/arrow-left.png" className="!w-full" />
+                <img src="./arrow-left.png" className="!w-full" />
               </button>
               <button
                 className="border-2 rounded-full p-6 !h-fit !w-fit"
                 onClick={onSelectNext}
               >
-                <img src="../src/assets/arrow-right.png" className="!w-full" />
+                <img src="./arrow-right.png" className="!w-full" />
               </button>
             </div>
           </div>

@@ -27,7 +27,7 @@ export default function Contact() {
           className="mt-8 xl:mt-2 flex items-center lg:gap-4 gap-2 text-[#050505] lg:text-2xl text-sm md:text-lg font-semibold font-innerTight bg-[#87FF65] uppercase lg:p-4 p-2 rounded-full double-border2 h-fit w-fit my-auto"
         >
           copy email address{" "}
-          <img src="./src/assets/copy.png" className="lg:w-12 w-8 md:w-10" />
+          <img src="./copy.png" className="lg:w-12 w-8 md:w-10" />
         </button>
       </h3>
       <div className="w-full border-b border-[#909098] mt-12"></div>
@@ -35,22 +35,22 @@ export default function Contact() {
         <ul className="flex items-center lg:gap-5 gap-2 ">
           <li>
             <a href="#">
-              <img src="./src/assets/github.png" />
+              <img src="./github.png" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./src/assets/linkedin.png" />
+              <img src="./linkedin.png" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./src/assets/mail.png" />
+              <img src="./mail.png" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./src/assets/instagram.png" />
+              <img src="./instagram.png" />
             </a>
           </li>
         </ul>
