@@ -1,12 +1,10 @@
 // remember to add function to change the style of the link clicked
-
-import { useState } from "react";
 import NavbarLink from "./NavbarLink";
 
 export default function Navbar({ selectedLink, onSelect }) {
   return (
-    <nav className="flex gap-2 fixed bottom-0 right-[50%] translate-x-[50%] mb-8">
-      <ol className="flex items-center bg-[#050505] px-4 py-4 rounded-full">
+    <div className="flex fixed bottom-0 right-[50%] translate-x-[50%] mb-8  w-fit">
+      <ol className="flex items-center bg-[#050505]/85 backdrop-blur-md border border-[#1E1E1E] lg:p-4 p-2 rounded-full ">
         <NavbarLink
           title="home"
           onSelect={() => onSelect("home")}
@@ -36,9 +34,6 @@ export default function Navbar({ selectedLink, onSelect }) {
           link="/art"
         />
       </ol>
-      <button className="flex items-center gap-2 text-[#FAFAFF] text-sm bg-[#050505] px-6 py-1 rounded-full double-border">
-        CONTACT ME <img src="./src/assets/arrow.png" />
-      </button>
-    </nav>
+    </div>
   );
 }

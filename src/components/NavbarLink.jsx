@@ -1,6 +1,6 @@
 export default function NavbarLink({ link, title, isSelected, onSelect }) {
   let linkStyle =
-    "text-[#FAFAFF] text-sm px-6 py-2 rounded-full hover:bg-[#1E1E1E] duration-300 uppercase ";
+    "flex text-[#FAFAFF] lg:text-sm text-[8px] md:text-[12px] lg:px-6 px-4 py-2 rounded-full hover:bg-[#1E1E1E] duration-300 uppercase whitespace-nowrap ";
 
   return (
     <li>
