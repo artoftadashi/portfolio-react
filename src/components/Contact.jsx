@@ -45,7 +45,7 @@ export default function Contact() {
           </li>
           <li>
             <a href="#">
-              <img src="./mail.png" />
+              <img src="./Mail.png" />
             </a>
           </li>
           <li>
