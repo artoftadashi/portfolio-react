@@ -22,7 +22,7 @@ export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
           ></div>
           {/* text and buttons */}
           <div className="flex flex-col md:flex-row items-center justify-between py-28 md:py-0 md:justify-evenly m-auto w-full h-full ">
-            <h1 className="uppercase xl:text-[8rem] lg:text-[6rem] sm:text-[3rem] text-[2.4rem] font-[Thunder] xl:leading-[7rem] lg:leading-[5rem] sm:leading-[3rem] leading-[2rem] text-white tracking-wide md:w-[30%] w-fit drop-shadow-xl animate-fade-right ">
+            <h1 className=" text-center uppercase xl:text-[8rem] lg:text-[6rem] sm:text-[3rem] text-[3rem] font-[Thunder] xl:leading-[7rem] lg:leading-[5rem] sm:leading-[4rem] leading-[3rem] text-white tracking-wide md:w-[30%] w-fit drop-shadow-xl animate-fade-right ">
               {content.caption}
             </h1>
             <div className="inline-flex gap-12 md:gap-6 pb-8 md:pb-0">
