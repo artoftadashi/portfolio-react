@@ -30,16 +30,16 @@ export default function Home() {
   return (
     <>
       <main onMouseMove={(ev) => handleMouseMove(ev)} className="relative">
-        <span
-          className="absolute border-[#87FF65] border-2 w-[100px] h-[100px] rounded-full hidden xl:block bg-[#1e1e1e]/10 backdrop-hue-rotate-90 "
-          style={{ left: mousePosition.left, top: mousePosition.top }}
-        ></span>
         <Header />
         <div className="xl:w-[70vw] md:w-[85vw] w-[90vw] h-[40vh] md:h-[50vh] lg:h-[70vh] flex items-center mb-16 mx-auto ">
           <h1 className="text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem] font-bold uppercase  text-center font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none animate-fade-right">
             Hi, i'm <span className="text-[#66ed41]">samuel.</span> Creative
             Software Developer
           </h1>
+          <span
+            className="absolute border-[#87FF65] border-2 w-[100px] h-[100px] rounded-full hidden xl:block bg-[#1e1e1e]/10 backdrop-hue-rotate-90 "
+            style={{ left: mousePosition.left, top: mousePosition.top }}
+          ></span>
         </div>
         <About />
         <Marquee />
