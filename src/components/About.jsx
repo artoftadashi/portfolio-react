@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export default function About() {
   return (
     <section className="p-12 m:p-16 lg:p-24 xl:p-32 bg-[#87FF65] rounded-t-[50px] mx-auto">
