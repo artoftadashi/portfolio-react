@@ -1,6 +1,6 @@
 export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
   let containerClass = ` w-full h-[100vh] bg-no-repeat overflow-hidden bg-cover bg-center `;
-  let centerImageClass = `lg:w-[26rem] lg:h-[32rem] w-[14rem] h-[18rem] sm:w-[20rem] h-[24rem] rounded-3xl absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rotate-[5deg] -z-[2] bg-no-repeat overflow-hidden bg-cover bg-center animate-fade animate-delay-[.15s]  `;
+  let centerImageClass = `lg:w-[26rem] lg:h-[32rem] w-[14rem] h-[18rem] sm:w-[20rem] h-[24rem] rounded-3xl absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] md:rotate-[5deg] rotate-0 -z-[2] bg-no-repeat overflow-hidden bg-cover bg-center animate-fade animate-delay-[.15s]  `;
   return (
     <>
       <div
