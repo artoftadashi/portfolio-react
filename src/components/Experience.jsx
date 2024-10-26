@@ -3,7 +3,7 @@ import ExperienceItem from "./ExperienceItem";
 export default function Experience() {
   return (
     <section className="lg:p-32 p-12 sm:p-16 mx-auto">
-      <h3 className="uppercase font-bold text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] xl:text-[7rem] font-[Thunder] leading-[4rem] lg:leading-[6rem] xl:leading-[8rem] ">
+      <h3 className="uppercase font-bold text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] xl:text-[7rem] font-[Thunder] leading-[3rem] lg:leading-[6rem] xl:leading-[8rem] ">
         I BUILD COOL WEBSITES THAT CAN{" "}
         <span className="border-b-4 border-[#050505]">
           LEVEL UP YOUR ONLINE PRESENCE.
@@ -12,7 +12,7 @@ export default function Experience() {
       <div className="border-b-4 border-[#050505] w-full mt-16 lg:mt-24 xl:mt-32"></div>
       <ExperienceItem
         date="jan 2020 - present"
-        work="crew member - mcdonalds"
+        work="Freelance Web Developer"
       />
       <div className="border-b-4 border-[#050505] w-full "></div>
       <ExperienceItem

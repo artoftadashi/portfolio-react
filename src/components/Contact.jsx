@@ -31,7 +31,7 @@ export default function Contact() {
         </button>
       </h3>
       <div className="w-full border-b border-[#909098] mt-12"></div>
-      <div className="w-full flex items-center justify-evenly mt-20">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 m-auto md:gap-0 md:justify-evenly my-20">
         <ul className="flex items-center lg:gap-5 gap-2 ">
           <li>
             <a href="#">
@@ -54,7 +54,7 @@ export default function Contact() {
             </a>
           </li>
         </ul>
-        <p className="text-[#fafaff] font-innerTight hidden lg:block">
+        <p className="text-[#fafaff] font-innerTight md:text-md text-[10px]">
           © SAMUEL OLANREWAJU
         </p>
       </div>
