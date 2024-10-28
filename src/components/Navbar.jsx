@@ -21,11 +21,13 @@ export default function Navbar({ selectedLink, onSelect }) {
           title="work"
           onSelect={() => onSelect("work")}
           isSelected={selectedLink === "work"}
+          link="https://github.com/artoftadashi"
         />
         <NavbarLink
           title="resume"
           onSelect={() => onSelect("resume")}
           isSelected={selectedLink === "resume"}
+          link="./cv/Samuel_Olanrwaju_CV.pdf"
         />
         <NavbarLink
           title="my art"

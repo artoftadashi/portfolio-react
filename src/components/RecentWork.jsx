@@ -9,7 +9,6 @@ export default function RecentWork() {
       <div className="flex flex-wrap justify-center gap-16 mt-16 lg:mt-32 ">
         <RecentWorksCard
           image="./simonSays.png"
-          isLarge={true}
           title="Simon Says"
           description="ui development, Front-End engineering"
         />

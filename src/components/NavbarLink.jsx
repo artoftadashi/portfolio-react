@@ -8,6 +8,8 @@ export default function NavbarLink({ link, title, isSelected, onSelect }) {
         href={link}
         className={isSelected ? (linkStyle += "bg-[#1E1E1E]") : linkStyle}
         onClick={onSelect}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         {title}
       </a>

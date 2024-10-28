@@ -15,10 +15,7 @@ export default function About() {
         best Hefeweizens, or complaining about Domino’s pizza. That’s what being
         born and raised in Lagos, Nigeria will do to you.
       </p>
-      <a
-        href="#"
-        className="flex items-center gap-4 mt-20 group w-fit z-[1000] "
-      >
+      <a href="#" className="flex items-center gap-4 mt-20 group w-fit ">
         <p className="text-2xl lg:text-3xl font-innerTight group-hover:underline">
           Learn more
         </p>

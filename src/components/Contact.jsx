@@ -31,26 +31,26 @@ export default function Contact() {
         </button>
       </h3>
       <div className="w-full border-b border-[#909098] mt-12"></div>
-      <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 m-auto md:gap-0 md:justify-evenly my-20">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 m-auto md:gap-0 md:justify-evenly my-20 z-[2]">
         <ul className="flex items-center lg:gap-5 gap-2 ">
           <li>
             <a href="#">
-              <img src="./github.png" />
+              <img src="./github.svg" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./linkedin.png" />
+              <img src="./linkedin.svg" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./Mail.png" />
+              <img src="./Mail.svg" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./instagram.png" />
+              <img src="./instagram.svg" />
             </a>
           </li>
         </ul>
