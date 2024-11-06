@@ -33,7 +33,7 @@ export default function Contact() {
         <p className="relative w-fit">
           <button
             onClick={handleCopyLink}
-            className="mt-8 xl:mt-2 flex items-center lg:gap-4 gap-2 text-[#050505] lg:text-2xl text-sm md:text-lg font-semibold font-innerTight bg-[#87FF65] uppercase lg:p-4 p-2 rounded-full double-border2 h-fit w-fit my-auto"
+            className="mt-8 xl:mt-2 flex items-center lg:gap-4 gap-2 text-[#050505] lg:text-2xl text-xs md:text-lg font-semibold font-innerTight bg-[#87FF65] uppercase lg:p-4 p-2 rounded-full double-border2 h-fit w-fit my-auto"
           >
             copy email address{" "}
             <img src="./copy.png" className="lg:w-12 w-8 md:w-10" />
