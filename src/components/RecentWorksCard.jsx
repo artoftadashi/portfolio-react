@@ -1,9 +1,4 @@
-export default function RecentWorksCard({
-  image,
-  title,
-  description,
-  isLarge,
-}) {
+export default function RecentWorksCard({ image, title, description }) {
   let imgStyle = "rounded-3xl lg:h-[35rem] h-[25rem]";
 
   return (
