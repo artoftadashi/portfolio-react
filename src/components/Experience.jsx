@@ -25,7 +25,12 @@ export default function Experience() {
         work="Airfreight operations assistant"
       />
       <div className="border-b-4 border-[#050505] w-full xl:mb-32 mb-16 lg:mb-24"></div>
-      <a href="#" className="flex items-center gap-4 mt-20 group w-fit m-auto">
+      <a
+        href="./cv/Samuel_Olanrwaju_CV.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-4 mt-20 group w-fit m-auto"
+      >
         <p className="lg:text-3xl text-xl sm:text-2xl font-innerTight group-hover:underline">
           Learn more
         </p>
