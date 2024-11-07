@@ -57,3 +57,23 @@
     }
   }
 }
+
+.modal-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top left, #101d3d, transparent 70%);
+  opacity: 0.8; /* Adjust opacity for subtleness */
+  pointer-events: none; /* Prevent interference with other elements */
+  z-index: -1; /* Ensure it’s behind modal content */
+}
+
+@media (min-width: 1024px) {
+  /* Tailwind's lg breakpoint */
+  .modal-content::before {
+    display: none; /* Hide glow effect on larger screens */
+  }
+}
