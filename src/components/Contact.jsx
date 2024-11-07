@@ -25,7 +25,7 @@ export default function Contact() {
 
   return (
     <section className="xl:p-32 p-16 lg:p24~ bg-[#050505] rounded-t-[50px] mx-auto">
-      <h3 className=" xl:flex flex-wrap gap-3 uppercase text-[#fafaff] font-bold text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem] font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none w-[80%] ">
+      <h3 className=" xl:flex flex-wrap gap-3 uppercase text-[#fafaff] lg:font-bold text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem] font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none w-[80%] ">
         Let’s talk more about your{" "}
         <span className="border-b-4 border-[#87FF65] text-[#87FF65] mr-8">
           project{"   "}
