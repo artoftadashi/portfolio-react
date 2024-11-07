@@ -8,7 +8,7 @@ export default function RecentWorksCard({
 
   return (
     <div
-      className="flex flex-col mb-8 lg:mb-16 hover:scale-[1.07] duration-150"
+      className="flex flex-col mb-8 lg:mb-16 hover:scale-[1.07] duration-150 hover:cursor-pointer"
       onClick={onClick}
     >
       <img src={image} className={imgStyle} />
