@@ -42,4 +42,18 @@
     z-index: 0;
     pointer-events: none;
   }
+  .modal-content {
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+  }
+  @media (min-width: 1280px) {
+    .modal-content {
+      background: radial-gradient(
+        circle at var(--mouse-x) var(--mouse-y),
+        #101d3d 10px,
+        #00000000 500px
+      );
+    }
+  }
 }
