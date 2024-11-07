@@ -36,17 +36,17 @@ export default function ProjectModal({ project, onClose }) {
         transition={{ duration: 0.2, ease: "easeInOut" }}
         onClick={(e) => e.stopPropagation()} // Prevent click on modal from closing
       >
-        <div className="lg:w-1/2 flex flex-col justify-center m-auto ">
+        <div className="lg:w-2/3 flex flex-col justify-center m-auto ">
           <p className="text-[#87FF65] uppercase text-center md:text-sm text-xs  font-innerTight">
             {project.description}
           </p>
           <h3 className="text-[#fafaff] uppercase text-center text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] xl:text-[6rem] font-[Thunder] my-2 md:my-0">
             {project.title}
           </h3>
-          <p className="text-white/60 font-innerTight text-center md:text-md text-xs">
+          <p className="text-white/60 font-innerTight text-center md:text-md text-xs lg:w-3/4 m-auto">
             {project.fullDescription}
           </p>
-          <ul className="flex md:flex-nowrap flex-wrap md:gap-2 gap-1 justify-center my-4">
+          <ul className="flex md:flex-nowrap flex-wrap md:gap-2 gap-1 justify-center mt-4">
             {project.bullets.map((content) => (
               <li className="bg-[#87FF65] py-1 md:py-2 px-2 md:px-4 rounded-3xl">
                 <p className="text-[#050505] text-center md:text-sm text-xs  font-innerTight font-bold italic ">
@@ -57,11 +57,11 @@ export default function ProjectModal({ project, onClose }) {
           </ul>
           <a
             href={project.link}
-            className="flex items-center gap-4 my-8 group w-fit justify-center m-auto "
+            className="flex items-center gap-4 my-6 group w-fit justify-center m-auto "
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-[#fafaff] text-lg lg:text-3xl font-innerTight group-hover:underline">
+            <p className="text-[#fafaff] text-lg lg:text-xl xl:text-2xl font-innerTight group-hover:underline">
               View Live Project
             </p>
             <img
