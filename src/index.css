@@ -76,4 +76,12 @@
   .modal-content::before {
     display: none; /* Hide glow effect on larger screens */
   }
+
+  .video-text {
+    background: url(./fire-gif.gif);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }

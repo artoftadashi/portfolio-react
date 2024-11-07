@@ -34,7 +34,8 @@ export default function Home() {
         <Header />
         <div className="xl:w-[70vw] md:w-[85vw] w-[90vw] h-[40vh] md:h-[50vh] lg:h-[70vh] flex items-center mb-16 mx-auto ">
           <h1 className="text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem] lg:font-bold uppercase  text-center font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none animate-fade-right">
-            Hi, i'm <span className="text-[#66ed41]">Samuel.</span> Creative
+            Hi, i'm <span className="text-[#66ed41]">Samuel.</span>{" "}
+            <span className="video-text bg-center bg-no-repeat">Creative</span>{" "}
             Software Developer
           </h1>
         </div>
