@@ -14,6 +14,7 @@ export default function RecentWork() {
               image={content.image}
               title={content.title}
               description={content.description}
+              gitHubLink={content.link}
             />
           </li>
         ))}
