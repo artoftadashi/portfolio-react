@@ -24,7 +24,7 @@ export default function ProjectModal({ project, onClose }) {
         />
       </button>
       <motion.div
-        className="bg-[#050505] p-8 md:p-16 w-4/5 lg:w-2/3 rounded-2xl z-10 modal-content overflow-hidden mb-24  "
+        className="bg-[#050505] p-8 md:p-16 w-4/5 lg:w-2/3 xl:w-1/2 rounded-2xl z-10 modal-content overflow-hidden mb-24  "
         onMouseMove={handleMouseMove}
         style={{
           "--mouse-x": `${mousePosition.x}px`,
