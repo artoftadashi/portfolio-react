@@ -78,7 +78,7 @@
   }
 
   .video-text {
-    background: url(fire-gif.gif);
+    background: url(./fire-gif.gif);
     background-size: cover;
     fill: transparent;
     -webkit-text-fill-color: transparent;
