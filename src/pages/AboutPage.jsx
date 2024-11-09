@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import AboutBody from "../components/aboutComponents/AboutBody";
 import { useState } from "react";
 
 export default function AboutPage() {
@@ -8,7 +9,7 @@ export default function AboutPage() {
   }
   return (
     <>
-      <h3>About</h3>
+      <AboutBody />
       <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
     </>
   );

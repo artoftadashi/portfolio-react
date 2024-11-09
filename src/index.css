@@ -85,4 +85,34 @@
     background-clip: text;
     -webkit-background-clip: text;
   }
+
+  .video-text-2 {
+    background: url("https://i.pinimg.com/originals/5b/57/6b/5b576b998050d3ab681820ce9b701e11.gif");
+    background-size: cover;
+    fill: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  @keyframes scaleFadeOut {
+    0% {
+      font-size: 1rem;
+      opacity: 1;
+    }
+    95% {
+      font-size: 50rem; /* Scale up by 80% of the animation duration */
+      opacity: 1; /* Keep opacity at 1 until this point */
+    }
+    100% {
+      font-size: 60rem; /* Hold the final scale */
+      opacity: 0; /* Fade out at the end */
+    }
+  }
+
+  .animate-scale-fade {
+    animation: scaleFadeOut 6s cubic-bezier(0.75, 0.6, 0.96, 0.23) forwards;
+    overflow: visible;
+    transform-origin: center;
+  }
 }
