@@ -1,5 +1,5 @@
-import { Modal } from "@mui/base/Modal";
 import { useState } from "react";
+import ContactSocials from "./ContactSocials";
 // remember to make the modal for copying the email address
 export default function Contact() {
   const [showMessage, setShowMessage] = useState(false);
@@ -33,7 +33,7 @@ export default function Contact() {
         <p className="relative w-fit">
           <button
             onClick={handleCopyLink}
-            className="mt-8 xl:mt-2 flex items-center lg:gap-4 gap-2 text-[#050505] lg:text-2xl text-xs md:text-lg font-semibold font-innerTight bg-[#87FF65] uppercase lg:p-4 p-2 rounded-full double-border2 h-fit w-fit my-auto"
+            className="mt-8 xl:mt-2 flex items-center lg:gap-4 gap-2 text-[#050505] lg:text-2xl text-xs md:text-lg font-semibold font-innerTight bg-[#87FF65] uppercase lg:p-4 p-2 rounded-full double-border2 h-fit w-fit my-auto hover:scale-[1.05] duration-300"
           >
             copy email address{" "}
             <img src="./copy.png" className="lg:w-12 w-8 md:w-10" />
@@ -48,26 +48,22 @@ export default function Contact() {
       <div className="w-full border-b border-[#909098] mt-12"></div>
       <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 m-auto md:gap-0 md:justify-evenly my-20 z-[2]">
         <ul className="flex items-center lg:gap-5 gap-2 ">
-          <li>
-            <a href="#">
-              <img src="./github.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./linkedin.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./Mail.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./instagram.svg" />
-            </a>
-          </li>
+          <ContactSocials
+            link="https://github.com/artoftadashi"
+            image="./github.svg"
+          />
+          <ContactSocials
+            link="https://www.linkedin.com/in/samuel-olanrewaju-00a8ba283/"
+            image="./linkedin.svg"
+          />
+          <ContactSocials
+            link="mailto: samuelolanrewaju2004@gmail.com"
+            image="./Mail.svg"
+          />
+          <ContactSocials
+            link="https://www.instagram.com/artoftadashi/"
+            image="./instagram.svg"
+          />
         </ul>
         <p className="text-[#fafaff] font-innerTight md:text-md text-[10px]">
           © SAMUEL OLANREWAJU
