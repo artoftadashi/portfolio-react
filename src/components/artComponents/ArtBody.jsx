@@ -9,11 +9,21 @@ export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
         key={content.index}
       >
         <div className="lg:py-8 lg:px-16 px-8 py-4 h-[100vh] w-[100vw] backdrop-blur-md bg-[#020202]/40 relative">
-          {/* my logo */}
-          <div className="flex items-center py-1 px-4 bg-white rounded-3xl w-fit">
-            <p className="font-bold font-innerTight text-md lg:text-xl sm:text-lg italic text-center ">
-              {"</s>"}
-            </p>
+          {/* my logo and close btn */}
+          <div className="flex justify-between items-center">
+            <div className="flex items-center py-1 px-4 bg-white rounded-3xl w-fit h-fit">
+              <p className="font-bold font-innerTight text-md lg:text-xl sm:text-lg italic text-center ">
+                {"</s>"}
+              </p>
+            </div>
+            <a href="/home">
+              <button className="animate-jump-in">
+                <img
+                  src="./close-btn.svg"
+                  className="scale-[.7] hover:scale-[.8] duration-150"
+                />
+              </button>
+            </a>
           </div>
           {/* center image */}
           <div

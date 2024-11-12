@@ -1,5 +1,4 @@
 import ArtBody from "../components/artComponents/ArtBody";
-import Navbar from "../components/Navbar";
 import Images from "../components/artComponents/Images";
 import { useState, useEffect } from "react";
 
@@ -50,10 +49,6 @@ export default function Art() {
     });
   }, [count]);
 
-  const [selectedLink, setSelectedLink] = useState("my art");
-  function handleSelect(link) {
-    setSelectedLink(link);
-  }
   return (
     <>
       <ArtBody
@@ -61,7 +56,6 @@ export default function Art() {
         onSelectNext={handleNext}
         onSelectPrev={handlePrevious}
       />
-      <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
     </>
   );
 }
