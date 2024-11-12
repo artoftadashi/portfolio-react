@@ -9,11 +9,11 @@ export default function About() {
         </span>
       </h3>
       <p className="lg:w-[75%] mt-10 md:text-xl lg:text-2xl font-innerTight leading-7 lg:leading-9">
-        I’m currently working with the fine folks @ Shopify, but have limited
-        availibility for freelance. When I’m not designing, you can catch me
-        outside exploring, hiking Colorado’s famous peaks, searching for the
-        best Hefeweizens, or complaining about Domino’s pizza. That’s what being
-        born and raised in Lagos, Nigeria will do to you.
+        Freelance web developer by day, digital artist by night, and a world
+        traveler in spirit (even if two countries are all I've got). Grumpy when
+        hungry, but there's nothing quite like the thrill of fixing a bug at
+        3am. Just don't expect me to be awake long after—sleep is calling, but
+        the bug must die first!
       </p>
       <a href="#" className="flex items-center gap-4 mt-20 group w-fit ">
         <p className="text-2xl lg:text-3xl font-innerTight group-hover:underline">
