@@ -97,15 +97,15 @@
 
   @keyframes scaleFadeOut {
     0% {
-      font-size: 1rem;
+      transform: scale(1);
       opacity: 1;
     }
     95% {
-      font-size: 50rem; /* Scale up by 80% of the animation duration */
+      transform: scale(50); /* Scale up by 80% of the animation duration */
       opacity: 1; /* Keep opacity at 1 until this point */
     }
     100% {
-      font-size: 60rem; /* Hold the final scale */
+      transform: scale(60); /* Hold the final scale */
       opacity: 0; /* Fade out at the end */
     }
   }
