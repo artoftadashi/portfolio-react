@@ -15,7 +15,7 @@ export default function About() {
         3am. Just don't expect me to be awake long after—sleep is calling, but
         the bug must die first!
       </p>
-      <a href="#" className="flex items-center gap-4 mt-20 group w-fit ">
+      <a href="/about" className="flex items-center gap-4 mt-20 group w-fit ">
         <p className="text-2xl lg:text-3xl font-innerTight group-hover:underline">
           Learn more
         </p>
