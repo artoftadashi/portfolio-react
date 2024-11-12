@@ -1,3 +1,5 @@
+//This is where you update the content of the project modals you can add more object items for more projects.
+
 const recentWorkContent = [
   {
     id: 0,
@@ -6,7 +8,7 @@ const recentWorkContent = [
     description: "ui development, Front-End engineering",
     link: "https://github.com/artoftadashi/simon-game",
     fullDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, lectus nec bibendum commodo, nisl tortor suscipit lacus, eu laoreet ex nisi in libero. Vestibulum ut tincidunt risus. Nulla id porta urna, a aliquam est.",
+      "Simon Says Game is a fun, interactive web game built with HTML, CSS, and JavaScript. Players must remember and replicate an increasing sequence of lights and sounds, challenging their memory and focus as the levels progress.",
     bullets: ["HTML", "CSS", "Javascript"],
   },
   {
@@ -16,7 +18,7 @@ const recentWorkContent = [
     description: "ui development, backend engineering",
     link: "https://github.com/artoftadashi/keeper-app",
     fullDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, lectus nec bibendum commodo, nisl tortor suscipit lacus, eu laoreet ex nisi in libero. Vestibulum ut tincidunt risus. Nulla id porta urna, a aliquam est.",
+      "Keeper is a note-taking app inspired by Google Keep, built with React and Material UI. It lets users create, organize, and manage notes with a simple, clean interface designed for efficiency and ease of use.",
     bullets: ["ReactJS", "MaterialUI"],
   },
   {
@@ -26,7 +28,7 @@ const recentWorkContent = [
     description: "ui development, backend engineering",
     link: "https://github.com/artoftadashi/react-ToDoList",
     fullDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, lectus nec bibendum commodo, nisl tortor suscipit lacus, eu laoreet ex nisi in libero. Vestibulum ut tincidunt risus. Nulla id porta urna, a aliquam est.",
+      "Check It is a streamlined checklist app built with JavaScript, Express, and MongoDB. It allows users to create, manage, and organize task lists effortlessly, making it easy to stay on top of daily goals and priorities.",
     bullets: ["Javascript", "ExpressJS", "MongoDB"],
   },
   {
@@ -36,7 +38,7 @@ const recentWorkContent = [
     description: "ui development, backend engineering",
     link: "https://github.com/artoftadashi/Jornal-project",
     fullDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, lectus nec bibendum commodo, nisl tortor suscipit lacus, eu laoreet ex nisi in libero. Vestibulum ut tincidunt risus. Nulla id porta urna, a aliquam est.",
+      "Journal App is a personal journal platform built with JavaScript, Express.js, and MongoDB. Designed to practice Express routing parameters, it enables users to create, view, and manage journal entries efficiently within an organized structure.",
     bullets: ["Javascript", "ExpressJS", "MongoDB"],
   },
   {
@@ -46,7 +48,7 @@ const recentWorkContent = [
     description: "ui development, backend engineering",
     link: "https://github.com/artoftadashi/Secrets-app",
     fullDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, lectus nec bibendum commodo, nisl tortor suscipit lacus, eu laoreet ex nisi in libero. Vestibulum ut tincidunt risus. Nulla id porta urna, a aliquam est.",
+      "Secrets App is a secure platform for anonymously sharing secrets, built with JavaScript, Express.js, MongoDB, and Passport.js. Developed to practice authentication, it ensures user privacy while allowing safe sharing of confidential thoughts.",
     bullets: ["Javascript", "PassportJS", "MongoDB", "ExpressJS"],
   },
 ];
