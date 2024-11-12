@@ -17,7 +17,7 @@ export default function ArtBody({ content, onSelectPrev, onSelectNext }) {
               </p>
             </div>
             <a href="/home">
-              <button className="animate-jump-in">
+              <button>
                 <img
                   src="./close-btn.svg"
                   className="scale-[.7] hover:scale-[.8] duration-150"
