@@ -8,7 +8,7 @@ export default function Header() {
       </div>
       <p className="uppercase flex items-center gap-2 text-[12px] sm:text-sm md:gap-3 md:text-lg">
         <span className="w-[8px] h-[8px] md:w-[15px] md:h-[15px] rounded-full bg-[rgb(254,93,38)] animate-pulse delay-300 "></span>{" "}
-        Available for work
+        Lincoln, UK
       </p>
     </header>
   );

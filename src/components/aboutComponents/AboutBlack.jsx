@@ -41,7 +41,7 @@ export default function AboutBlack() {
           key={animationKeys[2]} // Re-trigger animation when the key changes
           src={images[currentIndexes[2]]}
           alt="Third rotating image"
-          className="w-[70vw] md:w-[66vw] lg:w-[52vw] absolute z-10 xl:-top-[8rem] sm:-top-[4.2rem] md:-top-[4.5rem] lg:-top-[4.5rem] -top-[3.8rem] animate-fade-down animate-ease-out"
+          className="w-[70vw] md:w-[66vw] lg:w-[52vw] absolute z-10 xl:-top-[7.8rem] sm:-top-[4.2rem] md:-top-[4.5rem] lg:-top-[4.5rem] -top-[3.8rem] animate-fade-down animate-ease-out"
         />
       </div>
       <h3 className="uppercase text-[2rem] md:text-[3.5rem] lg:text-[4.5rem] xl:text-[6rem] font-[Thunder] leading-[2.5rem] md:leading-[4rem] xl:leading-[7rem] text-white">
@@ -67,6 +67,13 @@ export default function AboutBlack() {
           I’m not hunting bugs, I’m dropping into Apex Legends, chasing wins and
           perfecting my aim—sleep can wait!
         </p>
+      </div>
+      <div className="flex justify-start m-auto gap-2  md:gap-4 my-8">
+        <img className="w-5 sm:w-8 lg:w-10" src="./node-16-wt.svg" />
+        <img className="w-5 sm:w-8 lg:w-10" src="./react-wt.svg" />
+        <img className="w-5 sm:w-8 lg:w-10" src="./nextjs-wt.svg" />
+        <img className="w-5 sm:w-8 lg:w-10" src="./tailwindcss-wt.svg" />
+        <img className="w-5 sm:w-8 lg:w-10" src="./photoshop-wt.svg" />
       </div>
     </section>
   );

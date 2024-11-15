@@ -3,7 +3,7 @@ import NavbarLink from "./NavbarLink";
 
 export default function Navbar({ selectedLink, onSelect }) {
   return (
-    <div className="flex fixed bottom-0 right-[50%] translate-x-[50%] mb-8  w-fit">
+    <div className="flex fixed bottom-0 right-[50%] translate-x-[50%] mb-8  w-fit z-50">
       <ol className="flex items-center bg-[#050505]/75 backdrop-blur-md border border-[#1E1E1E] lg:p-4 p-2 rounded-full ">
         <NavbarLink
           title="home"
