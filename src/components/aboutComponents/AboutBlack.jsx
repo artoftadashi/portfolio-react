@@ -35,7 +35,7 @@ export default function AboutBlack() {
           key={animationKeys[1]} // Re-trigger animation when the key changes
           src={images[currentIndexes[1]]}
           alt="Second rotating image"
-          className="w-[74vw] md:w-[68vw] lg:w-[56vw] absolute z-20 xl:-top-[11rem] sm:-top-[5.5rem] md:-top-[6rem] lg:-top-[7rem] -top-[5rem] animate-fade-up animate-ease-out"
+          className="w-[74vw] md:w-[68vw] lg:w-[56vw] absolute z-20 xl:-top-[11rem] sm:-top-[5.5rem] md:-top-[6rem] lg:-top-[7rem] -top-[4.8rem] animate-fade-up animate-ease-out"
         />
         <img
           key={animationKeys[2]} // Re-trigger animation when the key changes
