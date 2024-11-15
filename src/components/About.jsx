@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="p-12 m:p-16 lg:p-24 xl:p-32 bg-[#87FF65] rounded-t-[50px] mx-auto">
+    <section className="p-12 md:p-16 lg:p-24 xl:p-32 bg-[#87FF65] rounded-t-[50px] mx-auto">
       <h3 className="uppercase  text-[2rem] md:text-[3.5rem] lg:text-[4.5rem] xl:text-[6rem] font-[Thunder] leading-[2.5rem] md:leading-[4rem] xl:leading-[7rem]  ">
         I use storytelling and design to build high impact pitch decks for
         leading{" "}

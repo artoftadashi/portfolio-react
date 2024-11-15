@@ -1,40 +1,23 @@
-import { useState, useEffect } from "react";
+import Header from "../Header";
+import AboutBlack from "./AboutBlack";
+import Marquee from "../Marquee";
+import AboutExperience from "./AboutExperience";
+import Contact from "../Contact";
 
 export default function ArtBody() {
-  const [showText, setShowText] = useState(true);
-
-  useEffect(() => {
-    // Set a timer to hide the text after the animation
-    const timer = setTimeout(() => {
-      setShowText(false);
-    }, 6000); // Animation duration in milliseconds
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <>
-      <div className="hidden lg:block">
-        {showText ? (
-          <div className="w-screen h-screen flex justify-center items-center m-auto overflow-hidden">
-            <h1 className="video-text-2 animate-scale-fade uppercase font-[Thunder] font-bold">
-              Samuel
-            </h1>
-          </div>
-        ) : (
-          <div className=" animate-fade ">
-            {/* actual content */}
-            <h2>About Section</h2>
-            <p>This is where my about section content goes.</p>
-          </div>
-        )}
+      <Header />
+      <div className="w-full h-[20vh] md:h-[40vh] lg:h-[50vh] justify-center flex items-center mb-24 mx-auto ">
+        <h1 className="text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem]  uppercase  text-center font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none animate-fade-right animate-duration-2000">
+          About me
+        </h1>
       </div>
-      <div className="block lg:hidden">
-        <div className=" animate-fade ">
-          {/* actual content */}
-          <h2>About Section</h2>
-          <p>This is where my about section content goes.</p>
-        </div>
+      <AboutBlack />
+      <Marquee />
+      <div className="bg-[#87FF65]">
+        <AboutExperience />
+        <Contact />
       </div>
     </>
   );
