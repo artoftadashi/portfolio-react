@@ -52,13 +52,13 @@ export default function AboutBlack() {
       </h3>
       <div className="flex flex-col md:flex-row justify-between mt-14">
         <p className="md:w-[47%] text-sm md:text-lg lg:text-xl font-innerTight leading-7 lg:leading-9 text-white">
-          I'm a web developer skilled in JavaScript, React.js, Tailwind CSS,
-          Express.js, and MongoDB, building dynamic, responsive web apps. I'm
-          also a digital artist, proficient in Procreate and Photoshop, creating
-          unique designs. I love problem-solving, especially fixing tricky bugs,
-          and optimizing user experiences. I have a strong balance between
-          front-end development and back-end solutions, with a keen eye for
-          design
+          I'm a web developer skilled in JavaScript, React.js, Next.js, Tailwind
+          CSS, Express.js, and MongoDB, building dynamic, responsive web apps.
+          I'm also a digital artist, proficient in Procreate and Photoshop,
+          creating unique designs. I love problem-solving, especially fixing
+          tricky bugs, and optimizing user experiences. I have a strong balance
+          between front-end development and back-end solutions, with a keen eye
+          for design
         </p>
         <p className="md:w-[47%] text-sm md:text-lg lg:text-xl font-innerTight leading-7 lg:leading-9 text-white">
           Freelance web developer by day, digital artist by night, and a world
