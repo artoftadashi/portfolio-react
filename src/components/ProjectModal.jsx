@@ -8,8 +8,8 @@ export default function ProjectModal({ project, onClose }) {
 
   const handleMouseMove = (event) => {
     setMousePosition({
-      x: event.clientX - spotlightRadius / 2,
-      y: event.clientY - spotlightRadius / 2,
+      x: event.clientX - 450,
+      y: event.clientY - 200,
     });
   };
 
