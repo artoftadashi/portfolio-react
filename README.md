@@ -81,5 +81,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-- **Your Name** - [Your GitHub Profile](https://github.com/artoftadashi)
+- **Your Name** - [artoftadashi](https://github.com/artoftadashi)
 - **Email**: samuelolanrewaju2004@gmail.com
