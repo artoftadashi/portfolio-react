@@ -62,7 +62,7 @@ export default function ProjectModal({ project, onClose }) {
             rel="noopener noreferrer"
           >
             <p className="text-[#fafaff] text-lg lg:text-xl xl:text-2xl font-innerTight group-hover:underline">
-              View Live Project
+              View Project
             </p>
             <img
               src="./btn-wt.svg"
