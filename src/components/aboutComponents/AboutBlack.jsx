@@ -23,7 +23,7 @@ export default function AboutBlack() {
 
   return (
     <section className="p-12 md:p-16 lg:p-24 xl:p-32 bg-[#050505] rounded-t-[50px] mx-auto relative">
-      <div className="flex justify-center relative xl:h-[60vh] lg:h-[50vh] sm:h-[30vh] h-[20vh]">
+      <div className="flex justify-center relative xl:h-[60vh] lg:h-[50vh] sm:h-[35vh] h-[30vh]">
         {/* Dynamically rendered images */}
         <img
           key={animationKeys[0]} // Re-trigger animation when the key changes
