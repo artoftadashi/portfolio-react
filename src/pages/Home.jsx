@@ -46,7 +46,7 @@ export default function Home() {
         <Contact />
         <Navbar selectedLink={selectedLink} onSelect={handleSelect} />
         <span
-          className="absolute border-[#87FF65] border-2 w-[100px] h-[100px] rounded-full hidden xl:block bg-[#1e1e1e]/10 z-[-1] "
+          className="absolute border-[#87FF65] border-2 w-[100px] h-[100px] rounded-full hidden xl:block bg-[#1e1e1e]/10 z-[0] backdrop-hue-rotate-90 pointer-events-none "
           style={{ left: mousePosition.left, top: mousePosition.top }}
         ></span>
       </main>
