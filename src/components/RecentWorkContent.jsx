@@ -2,17 +2,18 @@
 
 const recentWorkContent = [
   {
-    id: 0,
-    image: "./simonSays.png",
-    title: "Simon Says",
+    id: 6,
+    image: "./double-trouble.png",
+    title: "Double Trouble",
     description: "ui development, Front-End engineering",
-    link: "https://github.com/artoftadashi/simon-game",
+    link: "https://github.com/artoftadashi/double-trouble",
     fullDescription:
-      "Simon Says Game is a fun, interactive web game built with HTML, CSS, and JavaScript. Players must remember and replicate an increasing sequence of lights and sounds, challenging their memory and focus as the levels progress.",
-    bullets: ["HTML", "CSS", "Javascript"],
+      "Double Trouble: A sleek, responsive website built with React and Tailwind CSS, crafted for an electrifying event in Nigeria. Showcasing dynamic features and a vibrant design, it captures the spirit of the occasion.",
+    bullets: ["ReactJS", "TailwindCSS"],
   },
+
   {
-    id: 1,
+    id: 5,
     image: "./keeper.png",
     title: "Keeper App",
     description: "ui development, backend engineering",
@@ -22,7 +23,7 @@ const recentWorkContent = [
     bullets: ["ReactJS", "MaterialUI"],
   },
   {
-    id: 2,
+    id: 4,
     image: "./check-it.png",
     title: "Check-It App",
     description: "ui development, backend engineering",
@@ -42,7 +43,17 @@ const recentWorkContent = [
     bullets: ["Javascript", "ExpressJS", "MongoDB"],
   },
   {
-    id: 4,
+    id: 2,
+    image: "./project-manager.png",
+    title: "Project Manager",
+    description: "ui development, Front-End engineering",
+    link: "https://github.com/artoftadashi/project-manager",
+    fullDescription:
+      "A project manager app designed with React and Tailwind CSS, offering a streamlined interface and efficient tools to enhance productivity and team collaboration.",
+    bullets: ["reactJS", "TailwindCSS"],
+  },
+  {
+    id: 1,
     image: "./secrets.png",
     title: "Secrets App",
     description: "ui development, backend engineering",
@@ -50,6 +61,16 @@ const recentWorkContent = [
     fullDescription:
       "Secrets App is a secure platform for anonymously sharing secrets, built with JavaScript, Express.js, MongoDB, and Passport.js. Developed to practice authentication, it ensures user privacy while allowing safe sharing of confidential thoughts.",
     bullets: ["Javascript", "PassportJS", "MongoDB", "ExpressJS"],
+  },
+  {
+    id: 0,
+    image: "./simonSays.png",
+    title: "Simon Says",
+    description: "ui development, Front-End engineering",
+    link: "https://github.com/artoftadashi/simon-game",
+    fullDescription:
+      "Simon Says Game is a fun, interactive web game built with HTML, CSS, and JavaScript. Players must remember and replicate an increasing sequence of lights and sounds, challenging their memory and focus as the levels progress.",
+    bullets: ["HTML", "CSS", "Javascript"],
   },
 ];
 
