@@ -6,7 +6,6 @@ import Marquee from "../components/Marquee";
 import RecentWork from "../components/RecentWork";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
-
 export default function Home() {
   const [selectedLink, setSelectedLink] = useState("home");
   const [mousePosition, setMousePositon] = useState({
@@ -31,6 +30,7 @@ export default function Home() {
     <>
       <main onMouseMove={(ev) => handleMouseMove(ev)} className="relative">
         <Header />
+
         <div className="xl:w-[70vw] md:w-[85vw] w-[90vw] h-[40vh] md:h-[50vh] lg:h-[70vh] flex items-center mb-16 mx-auto">
           <h1 className="text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem]  uppercase  text-center font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none animate-fade-right animate-duration-2000">
             Hi, i'm <span className="text-[#66ed41]">Samuel.</span>{" "}

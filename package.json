@@ -15,6 +15,7 @@
     "@mui/base": "^5.0.0-beta.58",
     "framer-motion": "^11.11.11",
     "gsap": "^3.12.5",
+    "particles.js": "^2.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
