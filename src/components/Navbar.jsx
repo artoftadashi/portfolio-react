@@ -29,7 +29,7 @@ export default function Navbar({ selectedLink, onSelect }) {
           title="resume"
           onSelect={() => onSelect("resume")}
           isSelected={selectedLink === "resume"}
-          link="./cv/Samuel-Olanrewaju-CV.pdf"
+          link="./cv/SamuelOlanrewaju_CV.pdf"
           rel="noopener noreferer"
           target="_blank"
         />
