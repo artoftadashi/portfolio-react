@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Art() {
   const captions = [
+    "study",
     "In the darkness",
     "Tijani: The plain shop",
     "Geisha",
