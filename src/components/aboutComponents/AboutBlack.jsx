@@ -62,10 +62,10 @@ export default function AboutBlack() {
         </p>
         <p className="md:w-[47%] text-sm md:text-lg lg:text-xl font-innerTight leading-7 lg:leading-9 text-white">
           Freelance web developer by day, digital artist by night, and a world
-          traveler in spirit (even if two countries are all I've got). Grumpy
-          when hungry, but nothing beats the thrill of fixing a bug at 3am. If
-          I’m not hunting bugs, I’m dropping into Apex Legends, chasing wins and
-          perfecting my aim—sleep can wait!
+          traveler in spirit (even if two countries are all I've got). Nothing
+          beats the thrill of fixing a bug at 3am. If I’m not hunting bugs, I’m
+          dropping into Apex Legends, chasing wins and perfecting my aim—sleep
+          can wait!
         </p>
       </div>
       <div className="flex justify-start m-auto gap-2  md:gap-4 my-8">
