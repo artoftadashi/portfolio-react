@@ -4,6 +4,10 @@ import { useState, useEffect } from "react";
 
 export default function Art() {
   const captions = [
+    "japanese architecture",
+    "personal project",
+    "portrait study",
+    "portrait practice",
     "study",
     "In the darkness",
     "Tijani: The plain shop",
