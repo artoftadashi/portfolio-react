@@ -9,12 +9,12 @@ export default function AboutExperience() {
       <div className="border-b-4 border-[#050505] w-full mt-16 lg:mt-24 xl:mt-32"></div>
       <ExperienceItem
         date="jul 2023 - present"
-        work="Digital Artist - DoMeASolid & ThePlainShopUK"
+        work="Graphic Designer - DoMeASolid & ThePlainShopUK"
       />
       <div className="border-b-4 border-[#050505] w-full "></div>
       <ExperienceItem
         date="jan 2020 - present"
-        work="Freelance Web Developer - Digital Artist"
+        work="Freelance Developer - Digital Artist & Graphic Designer"
       />
       <div className="border-b-4 border-[#050505] w-full "></div>
       <ExperienceItem
