@@ -23,7 +23,7 @@ export default function AboutExperience() {
       />
       <div className="border-b-4 border-[#050505] w-full xl:mb-32 mb-16 lg:mb-24"></div>
       <a
-        href="./cv/Samuel-Olanrewaju-CV.pdf"
+        href="./cv/SamuelOlanrewaju_CV.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-4 mt-20 group w-fit m-auto"
