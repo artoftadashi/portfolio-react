@@ -17,7 +17,7 @@ export default function Experience() {
       <div className="border-b-4 border-[#050505] w-full "></div>
       <ExperienceItem
         date="jan 2020 - present"
-        work="Freelance Web Developer - Graphic Designer & Digital Artist"
+        work="Freelance Developer - Graphic Designer & Digital Artist"
       />
       <div className="border-b-4 border-[#050505] w-full "></div>
       <ExperienceItem
