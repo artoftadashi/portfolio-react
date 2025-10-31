@@ -35,7 +35,7 @@ export default function Home() {
           <h1 className="text-[3.5rem] sm:text-[4.5rem] md:text-[7rem] lg:text-[8rem] xl:text-[9.5rem] 2xl:text-[10rem]  uppercase  text-center font-[Thunder] lg:leading-[10rem] md:leading-[8rem] leading-none animate-fade-right animate-duration-2000">
             Hi, i'm <span className="text-[#66ed41]">Samuel.</span>{" "}
             <span className="video-text bg-center bg-no-repeat">Creative</span>{" "}
-            Software Developer
+            Software Developer & Digital Artist.
           </h1>
         </div>
         <About />
