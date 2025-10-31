@@ -36,16 +36,15 @@ export default function Art() {
   });
 
   function handlePrevious() {
-    if (count > 0) {
-      setCount((prevCount) => prevCount - 1);
-    }
+    setCount((prevCount) =>
+      prevCount === 0 ? captions.length - 1 : prevCount - 1
+    );
   }
 
   function handleNext() {
-    if (count < captions.length - 1) {
-      setCount((prevCount) => prevCount + 1);
-    }
+    setCount((prevCount) => (prevCount + 1) % captions.length);
   }
+
   useEffect(() => {
     setContent({
       index: count,
