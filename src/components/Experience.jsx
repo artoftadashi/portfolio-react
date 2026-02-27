@@ -11,13 +11,13 @@ export default function Experience() {
       </h3>
       <div className="border-b-4 border-[#050505] w-full mt-16 lg:mt-24 xl:mt-32"></div>
       <ExperienceItem
-        date="jul 2023 - present"
-        work="Graphic Designer - DoMeASolid & ThePlainShopUK"
+        date="nov 2024 - dec 2025"
+        work="Graphic Designer - DoMeASolid"
       />
       <div className="border-b-4 border-[#050505] w-full "></div>
       <ExperienceItem
-        date="jan 2020 - present"
-        work="Freelance Developer - Graphic Designer & Digital Artist"
+        date="jul 2023 - nov 2023"
+        work="Digital Artist - ThePlainShopUK"
       />
       <div className="border-b-4 border-[#050505] w-full "></div>
       <ExperienceItem
